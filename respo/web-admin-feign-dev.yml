@@ -7,12 +7,6 @@ spring:
     encoding: UTF-8
     servlet:
       content-type: text/html
-  cloud:
-    config:
-      uri: http://localhost:8887
-      name: config-client
-      label: master
-      profile: dev
 
 server:
   port: 8765
