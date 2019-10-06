@@ -6,13 +6,13 @@ spring:
       label: master
       server:
         git:
-          uri: https://github.com/topsale/spring-cloud-config
+          uri: https://github.com/huanzhiyin/spring-cloud-config.git
           search-paths: respo
-          username:
-          password:
+          username: huanzhiyin
+          password: q789639456123
 
 server:
-  port: 8888
+  port: 8887
 
 eureka:
   client:
